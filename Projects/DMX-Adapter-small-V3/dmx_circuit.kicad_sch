@@ -1111,7 +1111,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 40.64) (xy 57.15 40.64)
+			(xy 102.87 40.64) (xy 57.15 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1191,7 +1191,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.6 77.47) (xy 101.6 40.64)
+			(xy 102.87 77.47) (xy 102.87 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1241,7 +1241,7 @@
 	)
 	(polyline
 		(pts
-			(xy 57.15 77.47) (xy 101.6 77.47)
+			(xy 57.15 77.47) (xy 102.87 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1882,7 +1882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "Si2342DS"
 			(at 92.71 63.5 0)
 			(effects
 				(font

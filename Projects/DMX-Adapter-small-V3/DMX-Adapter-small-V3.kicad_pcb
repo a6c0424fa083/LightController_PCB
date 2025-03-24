@@ -824,7 +824,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/KEMET/C0402C103K7PACTU?qs=DPoM0jnrROVPiEOKt2qSGA%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Walsin/0402B103K6R3CT?qs=u16ybLDytRYFwOvCY%252Bt3gA%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -850,7 +850,7 @@
 				)
 			)
 		)
-		(property "Mouser-Nr" "80-C0402C103K7PACTU"
+		(property "Mouser-Nr" "791-0402B103K6R3CT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3367,7 +3367,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/KEMET/C0402C103K7PACTU?qs=DPoM0jnrROVPiEOKt2qSGA%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Walsin/0402B103K6R3CT?qs=u16ybLDytRYFwOvCY%252Bt3gA%3D%3D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3393,7 +3393,7 @@
 				)
 			)
 		)
-		(property "Mouser-Nr" "80-C0402C103K7PACTU"
+		(property "Mouser-Nr" "791-0402B103K6R3CT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7462,7 +7462,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "Si2342DS"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
 			(uuid "4f9cbcd6-2454-456b-910a-63558bc708b6")
@@ -7474,7 +7474,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/onsemi-Fairchild/NDS7002A?qs=HK%252BeIG1iaaix42XP2ZTlFA%3D%3D"
+		(property "Datasheet" "https://eu.mouser.com/ProductDetail/Vishay-Siliconix/SI2342DS-T1-GE3?qs=ROh%252BA47s9d0EG8kV%2FqrJ2w%3D%3D"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -7500,7 +7500,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser-Nr" "512-NDS7002A"
+		(property "Mouser-Nr" "78-SI2342DS-T1-GE3"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7746,7 +7746,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/KEMET/C0402C103K7PACTU?qs=DPoM0jnrROVPiEOKt2qSGA%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Walsin/0402B103K6R3CT?qs=u16ybLDytRYFwOvCY%252Bt3gA%3D%3D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7774,7 +7774,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser-Nr" "80-C0402C103K7PACTU"
+		(property "Mouser-Nr" "791-0402B103K6R3CT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7966,7 +7966,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/KEMET/C0402C103K7PACTU?qs=DPoM0jnrROVPiEOKt2qSGA%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Walsin/0402B103K6R3CT?qs=u16ybLDytRYFwOvCY%252Bt3gA%3D%3D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7994,7 +7994,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser-Nr" "80-C0402C103K7PACTU"
+		(property "Mouser-Nr" "791-0402B103K6R3CT"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9110,7 +9110,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/KEMET/C0402C103K7PACTU?qs=DPoM0jnrROVPiEOKt2qSGA%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Walsin/0402B103K6R3CT?qs=u16ybLDytRYFwOvCY%252Bt3gA%3D%3D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9138,7 +9138,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Mouser-Nr" "80-C0402C103K7PACTU"
+		(property "Mouser-Nr" "791-0402B103K6R3CT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
