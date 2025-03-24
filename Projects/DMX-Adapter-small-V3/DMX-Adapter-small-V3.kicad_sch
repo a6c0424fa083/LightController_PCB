@@ -1,0 +1,188 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ef5f791b-6275-4df9-ae9f-81fc9bb96b68")
+	(paper "A5")
+	(title_block
+		(title "Overview")
+		(date "2025-03-21")
+		(rev "1.0.0")
+		(company "sauer-solutions")
+	)
+	(lib_symbols)
+	(sheet
+		(at 111.76 21.59)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "923ebc89-c32d-44cc-8914-3a7d1c239418")
+		(property "Sheetname" "MCU"
+			(at 111.76 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 111.76 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DMX-Adapter-small-V3"
+				(path "/ef5f791b-6275-4df9-ae9f-81fc9bb96b68"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 21.59)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95f5c172-f812-45b1-82e4-e35a8bca5dd3")
+		(property "Sheetname" "Connectors_IO"
+			(at 73.66 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors_io.kicad_sch"
+			(at 73.66 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DMX-Adapter-small-V3"
+				(path "/ef5f791b-6275-4df9-ae9f-81fc9bb96b68"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 21.59)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "989cf3e8-7f0a-4420-ad25-65da54868bb2")
+		(property "Sheetname" "Power"
+			(at 35.56 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 35.56 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DMX-Adapter-small-V3"
+				(path "/ef5f791b-6275-4df9-ae9f-81fc9bb96b68"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 21.59)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eaa44aeb-6030-4d52-b7dd-ae6487a9eaea")
+		(property "Sheetname" "DMX_Circuit"
+			(at 149.86 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dmx_circuit.kicad_sch"
+			(at 149.86 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DMX-Adapter-small-V3"
+				(path "/ef5f791b-6275-4df9-ae9f-81fc9bb96b68"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
