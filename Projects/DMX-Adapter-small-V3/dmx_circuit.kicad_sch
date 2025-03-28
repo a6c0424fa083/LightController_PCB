@@ -11,6 +11,113 @@
 		(company "sauer-solutions")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1034,10 +1141,28 @@
 		(uuid "0dd93d97-949b-4d9d-8317-447f2918e843")
 	)
 	(junction
+		(at 96.52 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f7b067-1cd7-414a-83d2-efd51ab6fc1c")
+	)
+	(junction
 		(at 110.49 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7928636f-9fd5-4412-8abc-a7cee18583ed")
+	)
+	(junction
+		(at 90.17 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3e9f5cc-87b3-4498-8487-04e71606f2c9")
+	)
+	(junction
+		(at 81.28 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9e9d95b-b294-4a58-89c8-67db2c9aece7")
 	)
 	(junction
 		(at 130.81 48.26)
@@ -1051,7 +1176,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 62.23) (xy 82.55 62.23)
+			(xy 96.52 55.88) (xy 113.03 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f9c908-77b7-4b83-b1cd-0b57dfb527db")
+	)
+	(wire
+		(pts
+			(xy 80.01 62.23) (xy 81.28 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1098,6 +1233,16 @@
 			(type default)
 		)
 		(uuid "1f78e21a-ea81-4dfb-bc8c-eefaa2c3ac6e")
+	)
+	(wire
+		(pts
+			(xy 96.52 54.61) (xy 96.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2851e2e3-8e44-4905-b67a-3a1beddd7acc")
 	)
 	(wire
 		(pts
@@ -1181,6 +1326,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 44.45) (xy 92.71 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50469be6-5532-4313-8e96-0ed5084f4a0a")
+	)
+	(wire
+		(pts
 			(xy 130.81 48.26) (xy 128.27 48.26)
 		)
 		(stroke
@@ -1239,6 +1394,16 @@
 		)
 		(uuid "73efdfdb-63a9-4d88-a3f6-a006111f89df")
 	)
+	(wire
+		(pts
+			(xy 81.28 59.69) (xy 81.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784ad3f7-c19d-4fa5-9a7e-50f47295ed80")
+	)
 	(polyline
 		(pts
 			(xy 57.15 77.47) (xy 102.87 77.47)
@@ -1291,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 55.88) (xy 113.03 55.88)
+			(xy 90.17 55.88) (xy 96.52 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1318,6 +1483,16 @@
 			(type default)
 		)
 		(uuid "ec224408-173b-4f38-a2c6-10174f67aed2")
+	)
+	(wire
+		(pts
+			(xy 81.28 62.23) (xy 82.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efaaef64-7dd5-4fbc-bc95-55b05ce6b39a")
 	)
 	(wire
 		(pts
@@ -1626,6 +1801,156 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47035f08-5993-4e74-9101-ae5e7a7c3e55")
+		(property "Reference" "TP3"
+			(at 82.296 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INT"
+			(at 82.296 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Nr" "~"
+			(at 81.28 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dac3ed13-4cd9-44df-91ae-5aa8a28c69de")
+		)
+		(instances
+			(project "DMX-Adapter-small-V3"
+				(path "/ef5f791b-6275-4df9-ae9f-81fc9bb96b68/eaa44aeb-6030-4d52-b7dd-ae6487a9eaea"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 92.71 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d66e0ea-d2dd-475f-a611-101bbe304ffa")
+		(property "Reference" "TP1"
+			(at 97.028 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TX"
+			(at 97.028 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 92.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Nr" "~"
+			(at 92.71 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4ac5ffe-0705-4d01-8b50-9f6b6b418f4d")
+		)
+		(instances
+			(project ""
+				(path "/ef5f791b-6275-4df9-ae9f-81fc9bb96b68/eaa44aeb-6030-4d52-b7dd-ae6487a9eaea"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "own:SN75176B")
 		(at 120.65 52.07 0)
 		(unit 1)
@@ -1882,7 +2207,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Si2342DS"
+		(property "Value" "2N7002"
 			(at 92.71 63.5 0)
 			(effects
 				(font
@@ -1902,7 +2227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/ProductDetail/Vishay-Siliconix/SI2342DS-T1-GE3?qs=ROh%252BA47s9d0EG8kV%2FqrJ2w%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/onsemi-Fairchild/2N7002?qs=0dwsXDNhqlz66WJJhrTFjQ%3D%3D"
 			(at 92.71 66.04 0)
 			(effects
 				(font
@@ -1921,7 +2246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser-Nr" "78-SI2342DS-T1-GE3"
+		(property "Mouser-Nr" "512-2N7002"
 			(at 87.63 62.23 0)
 			(effects
 				(font
@@ -2087,6 +2412,81 @@
 			(project "DMX-Adapter-small-V3"
 				(path "/ef5f791b-6275-4df9-ae9f-81fc9bb96b68/eaa44aeb-6030-4d52-b7dd-ae6487a9eaea"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa1ad8fa-f115-4f0b-84b7-efb94deb639a")
+		(property "Reference" "TP2"
+			(at 97.536 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMX"
+			(at 97.536 52.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser-Nr" "~"
+			(at 96.52 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d37f9ce3-0763-42c9-a17c-0bec2b2a1f95")
+		)
+		(instances
+			(project "DMX-Adapter-small-V3"
+				(path "/ef5f791b-6275-4df9-ae9f-81fc9bb96b68/eaa44aeb-6030-4d52-b7dd-ae6487a9eaea"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

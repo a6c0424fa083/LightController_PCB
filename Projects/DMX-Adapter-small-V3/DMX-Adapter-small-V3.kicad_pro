@@ -536,10 +536,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber_Exprot_2025_03_22/",
+      "plot": "Gerber_export_2025_03_28/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "DMX-Adapter-small-V3.glb",
       "svg": "",
       "vrml": ""
     },

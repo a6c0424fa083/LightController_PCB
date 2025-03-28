@@ -1414,7 +1414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "330R"
 			(at 138.43 57.1499 0)
 			(effects
 				(font
@@ -1432,7 +1432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/Panasonic/ERA-2VEB1501X?qs=OlC7AqGiEDkx8XOEQaRGXQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0402330RFKEDHP?qs=sGAEpiMZZMtlubZbdhIBIKMpMWeJoXcV1tfZ%252B52JmGI%3D"
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -1450,7 +1450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser-Nr" "667-ERA-2VEB1501X"
+		(property "Mouser-Nr" "71-CRCW0402330RFKEDH"
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -1589,7 +1589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188C80G226MEA0D?qs=6V0hbkDBlKZLUx8AgMnILg%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188C80J226ME15D?qs=K0Sa7bCb58I9yTIvpI1jlg%3D%3D"
 			(at 59.69 59.69 0)
 			(effects
 				(font
@@ -1607,7 +1607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser-Nr" "81-GRM188C80G226ME0D"
+		(property "Mouser-Nr" "81-GRM188C80J226ME5D"
 			(at 59.69 59.69 0)
 			(effects
 				(font
@@ -2142,7 +2142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188C80G226MEA0D?qs=6V0hbkDBlKZLUx8AgMnILg%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188C80J226ME15D?qs=K0Sa7bCb58I9yTIvpI1jlg%3D%3D"
 			(at 52.07 59.69 0)
 			(effects
 				(font
@@ -2160,7 +2160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser-Nr" "81-GRM188C80G226ME0D"
+		(property "Mouser-Nr" "81-GRM188C80J226ME5D"
 			(at 52.07 59.69 0)
 			(effects
 				(font
